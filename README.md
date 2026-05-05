@@ -67,7 +67,7 @@ This directory uses the following standardized categories. COEs may offer resour
 **Resource categories offered:**
 Data coding and analysis, Risk communication, Utility retention and engagement, How-to guides and SOPs, Peer-to-peer technical assistance, Use cases and applications, Success stories, Trainings and workshops, Data visualization and dashboards, Surveillance reports and briefs
 
-**Pathogens and analytes covered:** SARS-CoV-2, influenza, RSV, mpox
+**Pathogens and analytes covered:** SARS-CoV-2, influenza, RSV
 
 **Formats available:** PDF documents, slide decks, recorded webinars, templates
 
@@ -115,7 +115,7 @@ This repository is maintained by the New York NWSS COE. Submissions are reviewed
 
 | Role | Contact |
 |------|---------|
-| Repository lead | [Name, email] |
+| Repository lead | [Shaz Damani, wastewaternetwork@health.ny.gov] |
 | Backup reviewer | [Name, email] |
 
 ---

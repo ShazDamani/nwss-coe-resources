@@ -52,14 +52,14 @@ This directory uses the following standardized categories. COEs may offer resour
 
 ### New York COE
 
-**Lead organization:** Health Research, Inc. — Center for Environmental Health
-**Jurisdictions served:** New York, New Jersey, Puerto Rico, U.S. Virgin Islands
-**Point of contact:** [name, email]
+**Lead organization:** NYSDOH and Syracuse University
+**Jurisdictions served:** Connecticut, Maine, Massachusetts, New Hampshire, New Jersey, New York, Puerto Rico, Rhode Island, the U.S. Virgin Islands, and Vermont.
+**Point of contact:** Shaz Damani, wastewaternetwork@health.ny.gov
 
 | | |
 |---|---|
-| **Primary website** | [URL] |
-| **Resource hub** | [URL] |
+| **Primary website** | [https://www.health.ny.gov/environmental/wastewater/] |
+| **Resource hub** | [(https://nywastewatcher.io/toolkit2025)] |
 | **Access** | Mixed — some resources publicly available; others require account or COE affiliation |
 | **Last updated** | May 2025 |
 | **Reuse terms** | Adaptable with attribution |

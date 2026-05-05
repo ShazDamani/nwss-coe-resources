@@ -1,0 +1,263 @@
+name: COE Resource Submission
+description: Submit your COE's resources to the NWSS COE Resource Repository
+title: "[SUBMISSION] <COE Name>"
+labels: ["submission", "pending-review"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## NWSS COE Resource Repository — Submission Form
+
+        Use this form to submit your COE's resources for inclusion in the shared directory. All required fields are marked. A repository maintainer will review your submission and add it to the index within **5 business days**. You may be contacted through this issue thread if clarification is needed.
+
+        For guidance on completing this form, see [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md).
+
+  # ─── COE IDENTIFICATION ───────────────────────────────────────────────────────
+
+  - type: markdown
+    attributes:
+      value: "---\n### Section 1 — COE Identification"
+
+  - type: input
+    id: coe_name
+    attributes:
+      label: Center of Excellence name
+      placeholder: "e.g., New York COE"
+    validations:
+      required: true
+
+  - type: input
+    id: lead_org
+    attributes:
+      label: Lead organization
+      placeholder: "Institution or agency name"
+    validations:
+      required: true
+
+  - type: input
+    id: contact_name
+    attributes:
+      label: Point of contact — name
+      placeholder: "Full name and title"
+    validations:
+      required: true
+
+  - type: input
+    id: contact_email
+    attributes:
+      label: Point of contact — email
+      placeholder: "Work email address"
+    validations:
+      required: true
+
+  - type: textarea
+    id: jurisdictions
+    attributes:
+      label: States and territories served
+      placeholder: "e.g., New York, New Jersey, Puerto Rico, U.S. Virgin Islands"
+      description: List all jurisdictions in your COE portfolio.
+    validations:
+      required: true
+
+  # ─── WEB PRESENCE ─────────────────────────────────────────────────────────────
+
+  - type: markdown
+    attributes:
+      value: "---\n### Section 2 — Web Presence"
+
+  - type: input
+    id: primary_website
+    attributes:
+      label: Primary COE website
+      placeholder: "https://"
+    validations:
+      required: true
+
+  - type: input
+    id: resource_hub
+    attributes:
+      label: Resource hub or library page
+      placeholder: "https://"
+      description: Provide a direct link to your resources or library page if it differs from the homepage. If all resources are on the primary site, leave blank.
+
+  - type: textarea
+    id: additional_links
+    attributes:
+      label: Additional resource links
+      placeholder: |
+        https:// — description (e.g., GitHub repository)
+        https:// — description (e.g., data dashboard)
+        https:// — description (e.g., shared drive)
+      description: List any additional URLs where resources are housed. Include a brief description for each. One entry per line.
+
+  # ─── RESOURCE CATEGORIES ──────────────────────────────────────────────────────
+
+  - type: markdown
+    attributes:
+      value: "---\n### Section 3 — Resource Categories"
+
+  - type: checkboxes
+    id: categories
+    attributes:
+      label: Resource types offered
+      description: Select all categories that apply to your COE's current resource offerings.
+      options:
+        - label: Data coding and analysis
+        - label: Risk communication
+        - label: Utility retention and engagement
+        - label: How-to guides and SOPs
+        - label: Peer-to-peer technical assistance
+        - label: Use cases and applications
+        - label: Success stories
+        - label: Trainings and workshops
+        - label: Data visualization and dashboards
+        - label: Funding and resource navigation
+        - label: Lab methods and protocols
+        - label: Equity and access resources
+        - label: Surveillance reports and briefs
+        - label: Policy and translation tools
+        - label: Presentations and webinars
+        - label: Publications and manuscripts
+
+  - type: input
+    id: categories_other
+    attributes:
+      label: Additional resource types not listed above
+      placeholder: "Describe any categories not captured above"
+
+  # ─── ACCESS & FORMAT ──────────────────────────────────────────────────────────
+
+  - type: markdown
+    attributes:
+      value: "---\n### Section 4 — Access and Format"
+
+  - type: dropdown
+    id: access_type
+    attributes:
+      label: How are your resources accessed?
+      options:
+        - Publicly available — no login required
+        - Restricted — requires account or COE affiliation
+        - Mixed — some publicly available, some restricted
+        - Available upon request only
+    validations:
+      required: true
+
+  - type: textarea
+    id: access_notes
+    attributes:
+      label: Access notes
+      placeholder: "e.g., Restricted resources require a registered NWSS account. Contact X to request access."
+      description: If access is restricted or mixed, briefly describe what is required to access restricted materials.
+
+  - type: checkboxes
+    id: formats
+    attributes:
+      label: Formats available
+      description: Select all that apply.
+      options:
+        - label: PDF documents
+        - label: Slide decks
+        - label: Video recordings
+        - label: Interactive dashboards
+        - label: Code and GitHub repositories
+        - label: Web pages and articles
+        - label: Recorded webinars
+        - label: Templates and tools
+
+  # ─── AUDIENCE & SCOPE ─────────────────────────────────────────────────────────
+
+  - type: markdown
+    attributes:
+      value: "---\n### Section 5 — Audience and Pathogen Scope"
+
+  - type: checkboxes
+    id: audience
+    attributes:
+      label: Primary intended audience
+      description: Select all that apply.
+      options:
+        - label: Utilities and sample collectors
+        - label: State and local health departments
+        - label: Laboratories
+        - label: CDC and federal partners
+        - label: Epidemiologists and data analysts
+        - label: Public and media
+        - label: Researchers and academic institutions
+        - label: Other COEs
+
+  - type: textarea
+    id: pathogens
+    attributes:
+      label: Pathogens and analytes covered
+      placeholder: "e.g., SARS-CoV-2, influenza, RSV, mpox, fentanyl, antimicrobial resistance markers"
+      description: List the key surveillance targets addressed by your resources.
+
+  # ─── SHARING & REUSE ──────────────────────────────────────────────────────────
+
+  - type: markdown
+    attributes:
+      value: "---\n### Section 6 — Sharing and Reuse"
+
+  - type: dropdown
+    id: reuse
+    attributes:
+      label: May other COEs or jurisdictions adapt your resources?
+      options:
+        - "Yes — freely adaptable"
+        - "Yes — with attribution"
+        - "Case by case — contact the COE before adapting"
+        - "No — internal use only"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: update_frequency
+    attributes:
+      label: How frequently are your resources updated?
+      options:
+        - Continuously / as needed
+        - Monthly
+        - Quarterly
+        - Annually
+        - Static — no regular update cycle
+
+  - type: input
+    id: last_updated
+    attributes:
+      label: Date of most recent major update
+      placeholder: "Month Year — e.g., April 2025"
+
+  # ─── ADDITIONAL CONTEXT ───────────────────────────────────────────────────────
+
+  - type: markdown
+    attributes:
+      value: "---\n### Section 7 — Additional Context"
+
+  - type: textarea
+    id: highlights
+    attributes:
+      label: Highlights and additional notes
+      placeholder: "Flag flagship resources, notable tools, ongoing projects, or any context that would help others find and make use of your work."
+      description: Optional, but encouraged. This field appears in your directory entry and helps other COEs identify the most relevant resources quickly.
+
+  # ─── SUBMISSION CHECKLIST ─────────────────────────────────────────────────────
+
+  - type: markdown
+    attributes:
+      value: "---\n### Submission Checklist"
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before submitting, confirm the following
+      options:
+        - label: All URLs provided are active. Restricted resources have access requirements noted.
+          required: true
+        - label: I am authorized to submit this information on behalf of my COE.
+          required: true
+        - label: I understand that a repository maintainer will review this submission before it is added to the index.
+          required: true
+# Add COE resource submission issue template

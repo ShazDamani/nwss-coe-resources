@@ -46,7 +46,7 @@ This directory uses the following standardized categories. COEs may offer resour
 ## COE Directory
 
 > **Last updated:** May 2025
-> **Total COEs listed:** 1 (template entry — replace with verified submissions)
+> **Total COEs listed:** 1 
 
 ---
 

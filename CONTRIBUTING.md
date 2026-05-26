@@ -61,4 +61,4 @@ Open a new issue using the blank issue option and apply the label `correction`. 
 
 ## Questions
 
-Open an issue tagged `question` or contact the repository maintainer directly at [insert contact email].
+Open an issue tagged `question` or contact the repository maintainer directly.

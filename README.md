@@ -140,7 +140,7 @@ This repository is maintained by the New York NWSS COE. Submissions are reviewed
 | Role | Contact |
 |------|---------|
 | Repository lead | [Shaz Damani, wastewaternetwork@health.ny.gov] |
-| Backup reviewer | [Please contact if interested] |
+| Backup reviewer | [Gabriela Iglesias-Mendoza] |
 
 ---
 

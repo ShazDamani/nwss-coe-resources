@@ -45,8 +45,8 @@ This directory uses the following standardized categories. COEs may offer resour
 
 ## COE Directory
 
-> **Last updated:** May 2025
-> **Total COEs listed:** 1 
+> **Last updated:** June 2026
+> **Total COEs listed:** 2 
 
 ---
 
@@ -72,7 +72,31 @@ Data coding and analysis, Risk communication, Utility retention and engagement, 
 **Formats available:** PDF documents, slide decks, recorded webinars, templates
 
 **Highlights:**
-> Add flagship resources, unique offerings, or contextual notes here.
+>
+
+---
+### Colorado COE
+
+**Lead organization:** University of Denver and Colorado Department of Public Health and Environment
+**Jurisdictions served:** Colorado, Iowa, Kansas, Missouri, Montana, North Dakota, Nebraska, South Dakota, Utah, Wyoming.
+**Point of contact:** Gabriela Iglesias-Mendoza, [cdphe_wastewater_surv@state.co.us.]
+
+| | |
+|---|---|
+| **Primary website** | [https://cdphe.colorado.gov/dcphr/wastewater] |
+| **Resource hub** | [(https://nywastewatcher.io/toolkit2025)] |
+| **Access** | Mixed — some resources publicly available; others require account or COE affiliation |
+| **Last updated** | June 2026 |
+| **Reuse terms** | Adaptable with attribution |
+
+**Resource categories offered:**
+We provide education and training from leading industry experts and offer consulting services to local public health agencies, state public health agencies, wastewater utilities and state public health laboratories. Established by Centers for Disease Control and Prevention (CDC) in August 2022, the Colorado National Wastewater Surveillance System Center of Excellence serves as one of six national centers of excellence dedicated specifically to communicable disease surveillance using wastewater.
+
+**Pathogens and analytes covered:** SARS-CoV-2, Influenza, RSV, EV-D68, Mpox, measles, and West Nile virus (WNV)
+
+**Formats available:** PDF documents, slide decks, recorded webinars, templates
+
+**Highlights:**
 
 ---
 
